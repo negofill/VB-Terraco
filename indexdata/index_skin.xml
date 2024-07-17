@@ -801,6 +801,8 @@ Version 3.2, tested with PTP 2.5.7 on Linux
       if (sceneisfull360 AND tour_firstlittleplanet, set(delaythegyrocheck, true));
 
       ifnot(delaythegyrocheck,
+        switch(plugin[gyroscope].enabled);
+        set(plugin[gyroscope].activated,true);
         set(tour_gyroscopedevices, true);
         events.dispatch(ongyroscopeavailable);
       ,
@@ -1602,29 +1604,6 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 
 
 <!-- ********** -->
-<!-- Call actions on tour events -->
-<!-- id : callActionsOnTourEvents -->
-<!-- ********** -->
-    <events name="callActionsOnTourEventsevents" keep="true"
-            ontourstart="callActionsOnTourEventsontourstart()"
-
-     />
-
-
-
-    <action name="callActionsOnTourEventsontourstart">
-enableGyroscope();
-
-
-
-    </action>
-
-
-
-
-
-
-<!-- ********** -->
 <!-- WebVR Button -->
 <!-- id : webvrbutton -->
 <!-- ********** -->
@@ -1637,7 +1616,7 @@ enableGyroscope();
 		align="top"
 		x="10"
 		y="20"
-		zorder="19"
+		zorder="18"
 		visible="false"
 		onclick="if(scene[get(xml.scene)].full360 AND disableCurrentSceneVrConservation !== true,
     js(accessWebVr(get(xml.scene),get(videoscenestarttime)));
@@ -1674,14 +1653,6 @@ enableGyroscope();
   <action name="enterFullScreenFallback">set(fullscreen,true);</action>
   
   <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
-
-  <action name="enableGyroscope">
-    changeGyroscopeState(true);
-  </action>
-  <action name="disableGyroscope">
-    changeGyroscopeState(false);
-  </action>
-
 
 	<!-- WebVR plugin for VR availability tests -->
 
