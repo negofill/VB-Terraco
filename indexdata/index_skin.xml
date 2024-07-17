@@ -1624,17 +1624,39 @@ enableGyroscope();
 
 
 
-  <!-- FLOORPLAN -->
-  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
-  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
+<!-- ********** -->
+<!-- WebVR Button -->
+<!-- id : webvrbutton -->
+<!-- ********** -->
 
 
-  <action name="enableGyroscope">
-    changeGyroscopeState(true);
-  </action>
-  <action name="disableGyroscope">
-    changeGyroscopeState(false);
-  </action>
+	<layer name="webvrbutton"
+		keep="true"
+		blocked="false"
+		alpha="1"
+		url="%FIRSTXML%/graphics/webvrbutton/btn_webvr.png"
+		align="top"
+		x="10"
+		y="20"
+		zorder="19"
+		visible="false"
+		onclick="if(scene[get(xml.scene)].full360 AND disableCurrentSceneVrConservation !== true,
+    js(accessWebVr(get(xml.scene),get(videoscenestarttime)));
+,
+    js(accessWebVr(null));
+);"
+
+		crop="0|0|100|63"
+		/>
+
+	<events name="webvrbuttonevents"
+		onvrunavailable="hidewebvrbutton(true);"
+		onTourStart="showwebvrbutton();"
+		hidetourcontrols="hidewebvrbutton();"
+		showtourcontrols="showwebvrbutton();"
+		keep="true" />
+	<action name="hidewebvrbutton">if(%1 == true,set(layer[webvrbutton].blocked, true););set(layer[webvrbutton].visible, false);</action>
+	<action name="showwebvrbutton">if(tour_displaycontrols,if(layer[webvrbutton].blocked == false,set(layer[webvrbutton].visible, true););,hidewebvrbutton(););</action>
 
 
   <!-- Fullscreen Management -->
@@ -1653,6 +1675,14 @@ enableGyroscope();
   <action name="enterFullScreenFallback">set(fullscreen,true);</action>
   
   <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+
+  <action name="enableGyroscope">
+    changeGyroscopeState(true);
+  </action>
+  <action name="disableGyroscope">
+    changeGyroscopeState(false);
+  </action>
+
 
 	<!-- WebVR plugin for VR availability tests -->
 
@@ -1681,4 +1711,9 @@ enableGyroscope();
 		set(tour_vrdevices, false);
 		events.dispatch(onvrunavailable);
 	</action>
+  <!-- FLOORPLAN -->
+  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
+  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
+
+
 </krpano>
