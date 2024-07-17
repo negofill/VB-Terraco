@@ -1633,7 +1633,6 @@ enableGyroscope();
 	<layer name="webvrbutton"
 		keep="true"
 		blocked="false"
-		alpha="1"
 		url="%FIRSTXML%/graphics/webvrbutton/btn_webvr.png"
 		align="top"
 		x="10"
@@ -1646,7 +1645,7 @@ enableGyroscope();
     js(accessWebVr(null));
 );"
 
-		crop="0|0|100|63"
+
 		/>
 
 	<events name="webvrbuttonevents"
