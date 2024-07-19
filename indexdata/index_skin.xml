@@ -130,7 +130,7 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 		
 		<option name="caption_displayed" value="false" type="bool" />
 		
-		<option name="play_displayed" value="true" type="bool" />
+		<option name="play_displayed" value="false" type="bool" />
 		<option name="play_position" value="bottomleft" type="string" />
 		<option name="play_text" value="galleryplay_text" type="string" />
 
@@ -146,7 +146,7 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 
 
 
-		<option name="navigation_arrows" value="true" type="bool" />
+		<option name="navigation_arrows" value="false" type="bool" />
 
 
 
@@ -307,7 +307,7 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 		<option name="caption_height" value="35" type="int" />
 		<option name="caption_textalign" value="center" type="string" />
 		
-		<option name="play_displayed" value="true" type="bool" />
+		<option name="play_displayed" value="false" type="bool" />
 		<option name="play_position" value="bottomleft" type="string" />
 		<option name="play_text" value="gallery1play_text" type="string" />
 
@@ -323,7 +323,7 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 
 
 
-		<option name="navigation_arrows" value="true" type="bool" />
+		<option name="navigation_arrows" value="false" type="bool" />
 
 
 
@@ -473,7 +473,7 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 
 
 
-		<option name="navigation_displayed" value="false" type="bool" />
+		<option name="navigation_displayed" value="true" type="bool" />
 		<option name="navigation_position" value="bottom" type="string" />
 		<option name="counter_color" value="666666" type="string" />
 		<option name="navprev_text" value="gallery2navprev_text" type="string" />
@@ -487,7 +487,7 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 
 
 
-		<option name="fullscreen_displayed" value="true" type="bool" />
+		<option name="fullscreen_displayed" value="false" type="bool" />
 		<option name="fullscreen_position" value="topleft" type="string" />
 		<option name="fullscreen_text" value="gallery2fullscreen_text" type="string" />
 
@@ -1442,6 +1442,188 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 						<option name="background_alpha" value="0.40784313725490196" type="float" />
 					
 				</group>
+				<group name="group_2"
+						titleID="panogroup105_title"
+						thumbnail=""
+						subMenu="true"
+						cssClass="panogroup105"> 
+
+				
+				
+						<item name="group_2_item_1"
+							action="invokeKrFunction('mainloadscene', 'pano92')"
+								titleID="pano92_title"
+								thumbnail="indexdata/academia_92/thumbnail.jpg"
+							cssClass="pano92">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_2_item_2"
+							action="invokeKrFunction('mainloadscene', 'pano93')"
+								titleID="pano93_title"
+								thumbnail="indexdata/brinquedoteca_93/thumbnail.jpg"
+							cssClass="pano93">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_2_item_3"
+							action="invokeKrFunction('mainloadscene', 'pano96')"
+								titleID="pano96_title"
+								thumbnail="indexdata/homeoffice_96/thumbnail.jpg"
+							cssClass="pano96">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_2_item_4"
+							action="invokeKrFunction('mainloadscene', 'pano98')"
+								titleID="pano98_title"
+								thumbnail="indexdata/lazer___petcare_98/thumbnail.jpg"
+							cssClass="pano98">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_2_item_5"
+							action="invokeKrFunction('mainloadscene', 'pano97')"
+								titleID="pano97_title"
+								thumbnail="indexdata/jogos_97/thumbnail.jpg"
+							cssClass="pano97">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_2_item_6"
+							action="invokeKrFunction('mainloadscene', 'pano103')"
+								titleID="pano103_title"
+								thumbnail="indexdata/terraco_103/thumbnail.jpg"
+							cssClass="pano103">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_2_item_7"
+							action="invokeKrFunction('mainloadscene', 'pano102')"
+								titleID="pano102_title"
+								thumbnail="indexdata/salao_de_festas_102/thumbnail.jpg"
+							cssClass="pano102">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+					
+						<option name="background_color" value="3c3c3c" type="string" />
+						<option name="background_alpha" value="1" type="float" />
+					
+				</group>
+				<group name="group_3"
+						titleID="panogroup108_title"
+						thumbnail=""
+						subMenu="true"
+						cssClass="panogroup108"> 
+
+				
+				
+						<item name="group_3_item_1"
+							action="invokeKrFunction('mainloadscene', 'pano101')"
+								titleID="pano101_title"
+								thumbnail="indexdata/sala_101/thumbnail.jpg"
+							cssClass="pano101">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_3_item_2"
+							action="invokeKrFunction('mainloadscene', 'pano94')"
+								titleID="pano94_title"
+								thumbnail="indexdata/cozinha_94/thumbnail.jpg"
+							cssClass="pano94">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_3_item_3"
+							action="invokeKrFunction('mainloadscene', 'pano104')"
+								titleID="pano104_title"
+								thumbnail="indexdata/varanda_104/thumbnail.jpg"
+							cssClass="pano104">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_3_item_4"
+							action="invokeKrFunction('mainloadscene', 'pano95')"
+								titleID="pano95_title"
+								thumbnail="indexdata/giardino_95/thumbnail.jpg"
+							cssClass="pano95">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_3_item_5"
+							action="invokeKrFunction('mainloadscene', 'pano100')"
+								titleID="pano100_title"
+								thumbnail="indexdata/quarto_suite_100/thumbnail.jpg"
+							cssClass="pano100">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_3_item_6"
+							action="invokeKrFunction('mainloadscene', 'pano99')"
+								titleID="pano99_title"
+								thumbnail="indexdata/quarto_solteiro_99/thumbnail.jpg"
+							cssClass="pano99">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+					
+						<option name="background_color" value="3c3c3c" type="string" />
+						<option name="background_alpha" value="1" type="float" />
+					
+				</group>
 	</internaldata>
 </ptplugin>
 
@@ -1654,6 +1836,11 @@ Version 3.2, tested with PTP 2.5.7 on Linux
   
   <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
 
+  <!-- FLOORPLAN -->
+  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
+  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
+
+
 	<!-- WebVR plugin for VR availability tests -->
 
 	<plugin name="ptpvrmode" devices="html5" keep="true"
@@ -1681,9 +1868,4 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 		set(tour_vrdevices, false);
 		events.dispatch(onvrunavailable);
 	</action>
-  <!-- FLOORPLAN -->
-  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
-  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
-
-
 </krpano>
