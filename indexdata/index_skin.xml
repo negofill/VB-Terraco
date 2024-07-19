@@ -119,8 +119,8 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 		<option name="container_border_color" value="ffffff" type="string" />
 		<option name="container_border_alpha" value="0" type="float" />
 		<option name="overlay_displayed" value="true" type="bool" />
-		<option name="overlay_color" value="000000" type="string" />
-		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+		<option name="overlay_color" value="ffffff" type="string" />
+		<option name="overlay_alpha" value="0.50196078431372548" type="float" />
 
 		<option name="item_border_width" value="0" type="int" />
 		<option name="item_border_color" value="ffffff" type="string" />
@@ -279,8 +279,8 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 		<option name="container_border_color" value="ffffff" type="string" />
 		<option name="container_border_alpha" value="0" type="float" />
 		<option name="overlay_displayed" value="true" type="bool" />
-		<option name="overlay_color" value="000000" type="string" />
-		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+		<option name="overlay_color" value="ffffff" type="string" />
+		<option name="overlay_alpha" value="0.50196078431372548" type="float" />
 
 		<option name="item_border_width" value="0" type="int" />
 		<option name="item_border_color" value="ffffff" type="string" />
@@ -455,8 +455,8 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 		<option name="container_border_color" value="ffffff" type="string" />
 		<option name="container_border_alpha" value="0" type="float" />
 		<option name="overlay_displayed" value="true" type="bool" />
-		<option name="overlay_color" value="000000" type="string" />
-		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+		<option name="overlay_color" value="ffffff" type="string" />
+		<option name="overlay_alpha" value="0.50196078431372548" type="float" />
 
 		<option name="item_border_width" value="0" type="int" />
 		<option name="item_border_color" value="ffffff" type="string" />
