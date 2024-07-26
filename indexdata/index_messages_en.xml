@@ -5,7 +5,7 @@
 <!--         Messages         -->
 <!-- ************************ -->
 
-  <data name="en_project_title"><![CDATA[Internas]]></data>
+  <data name="en_project_title"><![CDATA[JotaNunes Terraco VidaBela]]></data>
   <data name="en_project_author_name"><![CDATA[Pixel Arquitetura Digital]]></data>
   <data name="en_project_author_url"><![CDATA[http://pixelarquiteturadigital.com.br/]]></data>
 
@@ -48,7 +48,7 @@
 
 
 
-	<data name="en_project_floor_title"><![CDATA[Internas]]></data>
+	<data name="en_project_floor_title"><![CDATA[JotaNunes Terraco VidaBela]]></data>
 
 
   <data name="en_contextmenuopenFsLabel"><![CDATA[Enter Fullscreen]]></data>
@@ -158,6 +158,8 @@
   <data name="en_gallery2picture_caption12"><![CDATA[]]></data>
   <data name="en_gallery2picture_title13"><![CDATA[]]></data>
   <data name="en_gallery2picture_caption13"><![CDATA[]]></data>
+  <data name="en_gallery2picture_title14"><![CDATA[]]></data>
+  <data name="en_gallery2picture_caption14"><![CDATA[]]></data>
   <data name="en_titleonclick121893openurlwebsiteurl"><![CDATA[https://maps.app.goo.gl/J4PAHhgYmQjUspx89]]></data>
   <data name="en_button1tooltip"><![CDATA[]]></data>
   <data name="en_button2tooltip"><![CDATA[]]></data>

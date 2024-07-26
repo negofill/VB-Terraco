@@ -180,10 +180,10 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 		<item name="item_11" title="gallerypicture_title10" caption="gallerypicture_caption10" value="indexdata/graphics/gallery/lazer_aereo.jpg"/>
 		<item name="item_12" title="gallerypicture_title11" caption="gallerypicture_caption11" value="indexdata/graphics/gallery/lounge.jpg"/>
 		<item name="item_13" title="gallerypicture_title12" caption="gallerypicture_caption12" value="indexdata/graphics/gallery/parqueinfantil.jpg"/>
-		<item name="item_14" title="gallerypicture_title13" caption="gallerypicture_caption13" value="indexdata/graphics/gallery/petplay.jpg"/>
-		<item name="item_15" title="gallerypicture_title14" caption="gallerypicture_caption14" value="indexdata/graphics/gallery/piscina_infantil.jpg"/>
-		<item name="item_16" title="gallerypicture_title15" caption="gallerypicture_caption15" value="indexdata/graphics/gallery/piscina.jpg"/>
-		<item name="item_17" title="gallerypicture_title16" caption="gallerypicture_caption16" value="indexdata/graphics/gallery/quadra.jpg"/>
+		<item name="item_14" title="gallerypicture_title14" caption="gallerypicture_caption14" value="indexdata/graphics/gallery/piscina_infantil.jpg"/>
+		<item name="item_15" title="gallerypicture_title15" caption="gallerypicture_caption15" value="indexdata/graphics/gallery/piscina.jpg"/>
+		<item name="item_16" title="gallerypicture_title16" caption="gallerypicture_caption16" value="indexdata/graphics/gallery/quadra.jpg"/>
+		<item name="item_17" title="gallerypicture_title13" caption="gallerypicture_caption13" value="indexdata/graphics/gallery/petplay.jpg"/>
 	</internaldata>
 </ptplugin>
 
@@ -517,6 +517,7 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 		<item name="item_12" title="gallery2picture_title11" caption="gallery2picture_caption11" value="indexdata/graphics/gallery2/festas_02.jpg"/>
 		<item name="item_13" title="gallery2picture_title12" caption="gallery2picture_caption12" value="indexdata/graphics/gallery2/gourmet2.jpg"/>
 		<item name="item_14" title="gallery2picture_title13" caption="gallery2picture_caption13" value="indexdata/graphics/gallery2/jogos.jpg"/>
+		<item name="item_15" title="gallery2picture_title14" caption="gallery2picture_caption14" value="indexdata/graphics/gallery2/lazer__petcare.jpg"/>
 	</internaldata>
 </ptplugin>
 
