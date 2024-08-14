@@ -58,14 +58,16 @@
   <data name="en_gallerynavprev_text"><![CDATA[Previous]]></data>
   <data name="en_gallerynavnext_text"><![CDATA[Next]]></data>
   <data name="en_galleryclose_text"><![CDATA[Close]]></data>
+  <data name="en_gallerypicture_title3"><![CDATA[]]></data>
+  <data name="en_gallerypicture_caption3"><![CDATA[]]></data>
+  <data name="en_gallerypicture_title15"><![CDATA[]]></data>
+  <data name="en_gallerypicture_caption15"><![CDATA[]]></data>
   <data name="en_gallerypicture_title17"><![CDATA[Fotolocalização]]></data>
   <data name="en_gallerypicture_caption17"><![CDATA[]]></data>
   <data name="en_gallerypicture_title1"><![CDATA[]]></data>
   <data name="en_gallerypicture_caption1"><![CDATA[]]></data>
   <data name="en_gallerypicture_title2"><![CDATA[]]></data>
   <data name="en_gallerypicture_caption2"><![CDATA[]]></data>
-  <data name="en_gallerypicture_title3"><![CDATA[]]></data>
-  <data name="en_gallerypicture_caption3"><![CDATA[]]></data>
   <data name="en_gallerypicture_title4"><![CDATA[]]></data>
   <data name="en_gallerypicture_caption4"><![CDATA[]]></data>
   <data name="en_gallerypicture_title5"><![CDATA[]]></data>
@@ -86,8 +88,6 @@
   <data name="en_gallerypicture_caption12"><![CDATA[]]></data>
   <data name="en_gallerypicture_title14"><![CDATA[]]></data>
   <data name="en_gallerypicture_caption14"><![CDATA[]]></data>
-  <data name="en_gallerypicture_title15"><![CDATA[]]></data>
-  <data name="en_gallerypicture_caption15"><![CDATA[]]></data>
   <data name="en_gallerypicture_title16"><![CDATA[]]></data>
   <data name="en_gallerypicture_caption16"><![CDATA[]]></data>
   <data name="en_gallerypicture_title13"><![CDATA[]]></data>

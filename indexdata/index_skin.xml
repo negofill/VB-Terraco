@@ -167,21 +167,21 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
-		<item name="item_1" title="gallerypicture_title17" caption="gallerypicture_caption17" value="indexdata/graphics/gallery/acesso.jpg"/>
-		<item name="item_2" title="gallerypicture_title1" caption="gallerypicture_caption1" value="indexdata/graphics/gallery/beachtenis.jpg"/>
-		<item name="item_3" title="gallerypicture_title2" caption="gallerypicture_caption2" value="indexdata/graphics/gallery/bicicletario.jpg"/>
-		<item name="item_4" title="gallerypicture_title3" caption="gallerypicture_caption3" value="indexdata/graphics/gallery/cobertura.jpg"/>
-		<item name="item_5" title="gallerypicture_title4" caption="gallerypicture_caption4" value="indexdata/graphics/gallery/crossfit.jpg"/>
-		<item name="item_6" title="gallerypicture_title5" caption="gallerypicture_caption5" value="indexdata/graphics/gallery/dji_0053.jpg"/>
-		<item name="item_7" title="gallerypicture_title6" caption="gallerypicture_caption6" value="indexdata/graphics/gallery/dji_0103.jpg"/>
-		<item name="item_8" title="gallerypicture_title7" caption="gallerypicture_caption7" value="indexdata/graphics/gallery/fachada_noturna.jpg"/>
-		<item name="item_9" title="gallerypicture_title8" caption="gallerypicture_caption8" value="indexdata/graphics/gallery/fachada.jpg"/>
-		<item name="item_10" title="gallerypicture_title9" caption="gallerypicture_caption9" value="indexdata/graphics/gallery/gourmet.jpg"/>
-		<item name="item_11" title="gallerypicture_title10" caption="gallerypicture_caption10" value="indexdata/graphics/gallery/lazer_aereo.jpg"/>
-		<item name="item_12" title="gallerypicture_title11" caption="gallerypicture_caption11" value="indexdata/graphics/gallery/lounge.jpg"/>
-		<item name="item_13" title="gallerypicture_title12" caption="gallerypicture_caption12" value="indexdata/graphics/gallery/parqueinfantil.jpg"/>
-		<item name="item_14" title="gallerypicture_title14" caption="gallerypicture_caption14" value="indexdata/graphics/gallery/piscina_infantil.jpg"/>
-		<item name="item_15" title="gallerypicture_title15" caption="gallerypicture_caption15" value="indexdata/graphics/gallery/piscina.jpg"/>
+		<item name="item_1" title="gallerypicture_title3" caption="gallerypicture_caption3" value="indexdata/graphics/gallery/cobertura.jpg"/>
+		<item name="item_2" title="gallerypicture_title15" caption="gallerypicture_caption15" value="indexdata/graphics/gallery/piscina.jpg"/>
+		<item name="item_3" title="gallerypicture_title4" caption="gallerypicture_caption4" value="indexdata/graphics/gallery/crossfit.jpg"/>
+		<item name="item_4" title="gallerypicture_title17" caption="gallerypicture_caption17" value="indexdata/graphics/gallery/acesso.jpg"/>
+		<item name="item_5" title="gallerypicture_title1" caption="gallerypicture_caption1" value="indexdata/graphics/gallery/beachtenis.jpg"/>
+		<item name="item_6" title="gallerypicture_title2" caption="gallerypicture_caption2" value="indexdata/graphics/gallery/bicicletario.jpg"/>
+		<item name="item_7" title="gallerypicture_title5" caption="gallerypicture_caption5" value="indexdata/graphics/gallery/dji_0053.jpg"/>
+		<item name="item_8" title="gallerypicture_title6" caption="gallerypicture_caption6" value="indexdata/graphics/gallery/dji_0103.jpg"/>
+		<item name="item_9" title="gallerypicture_title7" caption="gallerypicture_caption7" value="indexdata/graphics/gallery/fachada_noturna.jpg"/>
+		<item name="item_10" title="gallerypicture_title8" caption="gallerypicture_caption8" value="indexdata/graphics/gallery/fachada.jpg"/>
+		<item name="item_11" title="gallerypicture_title9" caption="gallerypicture_caption9" value="indexdata/graphics/gallery/gourmet.jpg"/>
+		<item name="item_12" title="gallerypicture_title10" caption="gallerypicture_caption10" value="indexdata/graphics/gallery/lazer_aereo.jpg"/>
+		<item name="item_13" title="gallerypicture_title11" caption="gallerypicture_caption11" value="indexdata/graphics/gallery/lounge.jpg"/>
+		<item name="item_14" title="gallerypicture_title12" caption="gallerypicture_caption12" value="indexdata/graphics/gallery/parqueinfantil.jpg"/>
+		<item name="item_15" title="gallerypicture_title14" caption="gallerypicture_caption14" value="indexdata/graphics/gallery/piscina_infantil.jpg"/>
 		<item name="item_16" title="gallerypicture_title16" caption="gallerypicture_caption16" value="indexdata/graphics/gallery/quadra.jpg"/>
 		<item name="item_17" title="gallerypicture_title13" caption="gallerypicture_caption13" value="indexdata/graphics/gallery/petplay.jpg"/>
 	</internaldata>
@@ -1820,6 +1820,28 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 	<action name="showwebvrbutton">if(tour_displaycontrols,if(layer[webvrbutton].blocked == false,set(layer[webvrbutton].visible, true););,hidewebvrbutton(););</action>
 
 
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+
+  <!-- FLOORPLAN -->
+  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
+  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
+
+
 	<!-- WebVR plugin for VR availability tests -->
 
 	<plugin name="ptpvrmode" devices="html5" keep="true"
@@ -1847,26 +1869,4 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 		set(tour_vrdevices, false);
 		events.dispatch(onvrunavailable);
 	</action>
-  <!-- FLOORPLAN -->
-  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
-  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
-
-
-  <!-- Fullscreen Management -->
-  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
-  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
-  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
-
-  
-  <events name="krpanoExitFullscreenEvent"
-    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
-    keep="true" />
-
-  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
-  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
-  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
-  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
-  
-  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
-
 </krpano>
