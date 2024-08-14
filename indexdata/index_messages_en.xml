@@ -167,6 +167,8 @@
   <data name="en_button3tooltip"><![CDATA[]]></data>
   <data name="en_button4tooltip"><![CDATA[]]></data>
   <data name="en_webvrbuttontooltip"><![CDATA[]]></data>
+  <data name="en_prevnexttheme2prevSceneTip"><![CDATA[Avançar]]></data>
+  <data name="en_prevnexttheme2nextSceneTip"><![CDATA[Voltar]]></data>
 
 
   <data name="en_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>
