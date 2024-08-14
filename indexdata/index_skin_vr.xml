@@ -20,7 +20,7 @@
          onout="onoutIconponto"
 
 
-         width="32"
+         width="38"
          height="prop"
          />
   <action name="onhoverIconponto">
