@@ -1283,10 +1283,10 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 				
 				
 						<item name="group_1_item_1"
-							action="invokeKrFunction('mainloadscene', 'pano49')"
-								titleID="pano49_title"
-								thumbnail="indexdata/acesso_49/thumbnail.jpg"
-							cssClass="pano49">
+							action="invokeKrFunction('mainloadscene', 'pano103')"
+								titleID="pano103_title"
+								thumbnail="indexdata/terraco_103/thumbnail.jpg"
+							cssClass="pano103">
 						
 								<option name="item_out_bg_color" value="3c3c3c" type="string" />
 								<option name="item_out_bg_alpha" value="0.40784313725490196" type="float" />
@@ -1295,18 +1295,6 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 						
 						</item>
 						<item name="group_1_item_2"
-							action="invokeKrFunction('mainloadscene', 'pano53')"
-								titleID="pano53_title"
-								thumbnail="indexdata/fachada_53/thumbnail.jpg"
-							cssClass="pano53">
-						
-								<option name="item_out_bg_color" value="3c3c3c" type="string" />
-								<option name="item_out_bg_alpha" value="0.40784313725490196" type="float" />
-								<option name="item_hover_bg_color" value="323232" type="string" />
-								<option name="item_hover_bg_alpha" value="0.40784313725490196" type="float" />
-						
-						</item>
-						<item name="group_1_item_3"
 							action="invokeKrFunction('mainloadscene', 'pano60')"
 								titleID="pano60_title"
 								thumbnail="indexdata/piscina_60/thumbnail.jpg"
@@ -1318,7 +1306,43 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 								<option name="item_hover_bg_alpha" value="0.40784313725490196" type="float" />
 						
 						</item>
+						<item name="group_1_item_3"
+							action="invokeKrFunction('mainloadscene', 'pano92')"
+								titleID="pano92_title"
+								thumbnail="indexdata/academia_92/thumbnail.jpg"
+							cssClass="pano92">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="0.40784313725490196" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="0.40784313725490196" type="float" />
+						
+						</item>
 						<item name="group_1_item_4"
+							action="invokeKrFunction('mainloadscene', 'pano49')"
+								titleID="pano49_title"
+								thumbnail="indexdata/acesso_49/thumbnail.jpg"
+							cssClass="pano49">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="0.40784313725490196" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="0.40784313725490196" type="float" />
+						
+						</item>
+						<item name="group_1_item_5"
+							action="invokeKrFunction('mainloadscene', 'pano53')"
+								titleID="pano53_title"
+								thumbnail="indexdata/fachada_53/thumbnail.jpg"
+							cssClass="pano53">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="0.40784313725490196" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="0.40784313725490196" type="float" />
+						
+						</item>
+						<item name="group_1_item_6"
 							action="invokeKrFunction('mainloadscene', 'pano59')"
 								titleID="pano59_title"
 								thumbnail="indexdata/piscina_infantil_59/thumbnail.jpg"
@@ -1330,7 +1354,7 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 								<option name="item_hover_bg_alpha" value="0.40784313725490196" type="float" />
 						
 						</item>
-						<item name="group_1_item_5"
+						<item name="group_1_item_7"
 							action="invokeKrFunction('mainloadscene', 'pano56')"
 								titleID="pano56_title"
 								thumbnail="indexdata/lounge_56/thumbnail.jpg"
@@ -1342,7 +1366,7 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 								<option name="item_hover_bg_alpha" value="0.40784313725490196" type="float" />
 						
 						</item>
-						<item name="group_1_item_6"
+						<item name="group_1_item_8"
 							action="invokeKrFunction('mainloadscene', 'pano54')"
 								titleID="pano54_title"
 								thumbnail="indexdata/gourmet_01_54/thumbnail.jpg"
@@ -1354,7 +1378,7 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 								<option name="item_hover_bg_alpha" value="0.40784313725490196" type="float" />
 						
 						</item>
-						<item name="group_1_item_7"
+						<item name="group_1_item_9"
 							action="invokeKrFunction('mainloadscene', 'pano55')"
 								titleID="pano55_title"
 								thumbnail="indexdata/gourmet_02_55/thumbnail.jpg"
@@ -1366,7 +1390,7 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 								<option name="item_hover_bg_alpha" value="0.40784313725490196" type="float" />
 						
 						</item>
-						<item name="group_1_item_8"
+						<item name="group_1_item_10"
 							action="invokeKrFunction('mainloadscene', 'pano50')"
 								titleID="pano50_title"
 								thumbnail="indexdata/beachtenis_50/thumbnail.jpg"
@@ -1378,7 +1402,7 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 								<option name="item_hover_bg_alpha" value="0.40784313725490196" type="float" />
 						
 						</item>
-						<item name="group_1_item_9"
+						<item name="group_1_item_11"
 							action="invokeKrFunction('mainloadscene', 'pano61')"
 								titleID="pano61_title"
 								thumbnail="indexdata/quadra_61/thumbnail.jpg"
@@ -1390,7 +1414,7 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 								<option name="item_hover_bg_alpha" value="0.40784313725490196" type="float" />
 						
 						</item>
-						<item name="group_1_item_10"
+						<item name="group_1_item_12"
 							action="invokeKrFunction('mainloadscene', 'pano57')"
 								titleID="pano57_title"
 								thumbnail="indexdata/parque_infantil_57/thumbnail.jpg"
@@ -1402,7 +1426,7 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 								<option name="item_hover_bg_alpha" value="0.40784313725490196" type="float" />
 						
 						</item>
-						<item name="group_1_item_11"
+						<item name="group_1_item_13"
 							action="invokeKrFunction('mainloadscene', 'pano52')"
 								titleID="pano52_title"
 								thumbnail="indexdata/crossfit_52/thumbnail.jpg"
@@ -1414,7 +1438,7 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 								<option name="item_hover_bg_alpha" value="0.40784313725490196" type="float" />
 						
 						</item>
-						<item name="group_1_item_12"
+						<item name="group_1_item_14"
 							action="invokeKrFunction('mainloadscene', 'pano58')"
 								titleID="pano58_title"
 								thumbnail="indexdata/petplay_58/thumbnail.jpg"
@@ -1426,7 +1450,7 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 								<option name="item_hover_bg_alpha" value="0.40784313725490196" type="float" />
 						
 						</item>
-						<item name="group_1_item_13"
+						<item name="group_1_item_15"
 							action="invokeKrFunction('mainloadscene', 'pano51')"
 								titleID="pano51_title"
 								thumbnail="indexdata/bicicletario_51/thumbnail.jpg"
@@ -1452,18 +1476,6 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 				
 				
 						<item name="group_2_item_1"
-							action="invokeKrFunction('mainloadscene', 'pano92')"
-								titleID="pano92_title"
-								thumbnail="indexdata/academia_92/thumbnail.jpg"
-							cssClass="pano92">
-						
-								<option name="item_out_bg_color" value="3c3c3c" type="string" />
-								<option name="item_out_bg_alpha" value="1" type="float" />
-								<option name="item_hover_bg_color" value="323232" type="string" />
-								<option name="item_hover_bg_alpha" value="1" type="float" />
-						
-						</item>
-						<item name="group_2_item_2"
 							action="invokeKrFunction('mainloadscene', 'pano93')"
 								titleID="pano93_title"
 								thumbnail="indexdata/brinquedoteca_93/thumbnail.jpg"
@@ -1475,7 +1487,7 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
-						<item name="group_2_item_3"
+						<item name="group_2_item_2"
 							action="invokeKrFunction('mainloadscene', 'pano96')"
 								titleID="pano96_title"
 								thumbnail="indexdata/homeoffice_96/thumbnail.jpg"
@@ -1487,7 +1499,7 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
-						<item name="group_2_item_4"
+						<item name="group_2_item_3"
 							action="invokeKrFunction('mainloadscene', 'pano98')"
 								titleID="pano98_title"
 								thumbnail="indexdata/lazer___petcare_98/thumbnail.jpg"
@@ -1499,7 +1511,7 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
-						<item name="group_2_item_5"
+						<item name="group_2_item_4"
 							action="invokeKrFunction('mainloadscene', 'pano97')"
 								titleID="pano97_title"
 								thumbnail="indexdata/jogos_97/thumbnail.jpg"
@@ -1511,19 +1523,7 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
-						<item name="group_2_item_6"
-							action="invokeKrFunction('mainloadscene', 'pano103')"
-								titleID="pano103_title"
-								thumbnail="indexdata/terraco_103/thumbnail.jpg"
-							cssClass="pano103">
-						
-								<option name="item_out_bg_color" value="3c3c3c" type="string" />
-								<option name="item_out_bg_alpha" value="1" type="float" />
-								<option name="item_hover_bg_color" value="323232" type="string" />
-								<option name="item_hover_bg_alpha" value="1" type="float" />
-						
-						</item>
-						<item name="group_2_item_7"
+						<item name="group_2_item_5"
 							action="invokeKrFunction('mainloadscene', 'pano102')"
 								titleID="pano102_title"
 								thumbnail="indexdata/salao_de_festas_102/thumbnail.jpg"
@@ -1820,28 +1820,6 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 	<action name="showwebvrbutton">if(tour_displaycontrols,if(layer[webvrbutton].blocked == false,set(layer[webvrbutton].visible, true););,hidewebvrbutton(););</action>
 
 
-  <!-- Fullscreen Management -->
-  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
-  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
-  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
-
-  
-  <events name="krpanoExitFullscreenEvent"
-    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
-    keep="true" />
-
-  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
-  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
-  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
-  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
-  
-  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
-
-  <!-- FLOORPLAN -->
-  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
-  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
-
-
 	<!-- WebVR plugin for VR availability tests -->
 
 	<plugin name="ptpvrmode" devices="html5" keep="true"
@@ -1869,4 +1847,26 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 		set(tour_vrdevices, false);
 		events.dispatch(onvrunavailable);
 	</action>
+  <!-- FLOORPLAN -->
+  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
+  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
+
+
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+
 </krpano>

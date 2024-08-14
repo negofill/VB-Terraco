@@ -12,9 +12,11 @@
 
   <data name="en_panogroup62_title"><![CDATA[Externas]]></data>
 
+  <data name="en_pano103_title"><![CDATA[Terraco]]></data>
+  <data name="en_pano60_title"><![CDATA[Piscina]]></data>
+  <data name="en_pano92_title"><![CDATA[Academia]]></data>
   <data name="en_pano49_title"><![CDATA[Acesso]]></data>
   <data name="en_pano53_title"><![CDATA[Fachada]]></data>
-  <data name="en_pano60_title"><![CDATA[Piscina]]></data>
   <data name="en_pano59_title"><![CDATA[Piscina Infantil]]></data>
   <data name="en_pano56_title"><![CDATA[Lounge]]></data>
   <data name="en_pano54_title"><![CDATA[Gourmet 01]]></data>
@@ -28,12 +30,10 @@
 
   <data name="en_panogroup105_title"><![CDATA[Internos]]></data>
 
-  <data name="en_pano92_title"><![CDATA[Academia]]></data>
   <data name="en_pano93_title"><![CDATA[Brinquedoteca]]></data>
   <data name="en_pano96_title"><![CDATA[Homeoffice]]></data>
   <data name="en_pano98_title"><![CDATA[Lazer - Petcare]]></data>
   <data name="en_pano97_title"><![CDATA[Jogos]]></data>
-  <data name="en_pano103_title"><![CDATA[Terraco]]></data>
   <data name="en_pano102_title"><![CDATA[Salao De Festas]]></data>
 
   <data name="en_panogroup108_title"><![CDATA[Apto]]></data>
@@ -62,14 +62,14 @@
   <data name="en_gallerypicture_caption3"><![CDATA[]]></data>
   <data name="en_gallerypicture_title15"><![CDATA[]]></data>
   <data name="en_gallerypicture_caption15"><![CDATA[]]></data>
+  <data name="en_gallerypicture_title4"><![CDATA[]]></data>
+  <data name="en_gallerypicture_caption4"><![CDATA[]]></data>
   <data name="en_gallerypicture_title17"><![CDATA[Fotolocalização]]></data>
   <data name="en_gallerypicture_caption17"><![CDATA[]]></data>
   <data name="en_gallerypicture_title1"><![CDATA[]]></data>
   <data name="en_gallerypicture_caption1"><![CDATA[]]></data>
   <data name="en_gallerypicture_title2"><![CDATA[]]></data>
   <data name="en_gallerypicture_caption2"><![CDATA[]]></data>
-  <data name="en_gallerypicture_title4"><![CDATA[]]></data>
-  <data name="en_gallerypicture_caption4"><![CDATA[]]></data>
   <data name="en_gallerypicture_title5"><![CDATA[]]></data>
   <data name="en_gallerypicture_caption5"><![CDATA[]]></data>
   <data name="en_gallerypicture_title6"><![CDATA[]]></data>
